@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_2/Teste_3_2014_2015/BST.h
+iostream
+-
+stack
+-
+queue
+-
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_2/Teste_3_2014_2015/Clinica.cpp
+Clinica.h
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_2/Teste_3_2014_2015/Clinica.h
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_2/Teste_3_2014_2015/Clinica.h
+string
+-
+list
+-
+sstream
+-
+tr1/unordered_set
+-
+BST.h
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_2/Teste_3_2014_2015/BST.h
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_2/Teste_3_2014_2015/Test.cpp
+Clinica.h
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_2/Teste_3_2014_2015/Clinica.h
+

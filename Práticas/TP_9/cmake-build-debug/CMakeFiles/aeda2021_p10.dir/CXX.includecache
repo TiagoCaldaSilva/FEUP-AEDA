@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/TP_9/Tests/box.h
+stack
+-
+iostream
+-
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/TP_9/Tests/packagingMachine.cpp
+packagingMachine.h
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/TP_9/Tests/packagingMachine.h
+sstream
+-
+algorithm
+-
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/TP_9/Tests/packagingMachine.h
+queue
+-
+vector
+-
+stack
+-
+iostream
+-
+box.h
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/TP_9/Tests/box.h
+

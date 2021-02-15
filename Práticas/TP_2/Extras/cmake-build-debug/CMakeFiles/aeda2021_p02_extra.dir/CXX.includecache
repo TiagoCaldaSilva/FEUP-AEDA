@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/tiago/Desktop/FEUP/2_Ano/1_Semestre/AEDA/TP_2/Extras/Tests/animal.h
+veterinary.h
+C:/Users/tiago/Desktop/FEUP/2_Ano/1_Semestre/AEDA/TP_2/Extras/Tests/veterinary.h
+string
+-
+
+C:/Users/tiago/Desktop/FEUP/2_Ano/1_Semestre/AEDA/TP_2/Extras/Tests/veterinary.cpp
+veterinary.h
+C:/Users/tiago/Desktop/FEUP/2_Ano/1_Semestre/AEDA/TP_2/Extras/Tests/veterinary.h
+sstream
+-
+
+C:/Users/tiago/Desktop/FEUP/2_Ano/1_Semestre/AEDA/TP_2/Extras/Tests/veterinary.h
+string
+-
+
+C:/Users/tiago/Desktop/FEUP/2_Ano/1_Semestre/AEDA/TP_2/Extras/Tests/zoo.cpp
+zoo.h
+C:/Users/tiago/Desktop/FEUP/2_Ano/1_Semestre/AEDA/TP_2/Extras/Tests/zoo.h
+sstream
+-
+stdlib.h
+-
+
+C:/Users/tiago/Desktop/FEUP/2_Ano/1_Semestre/AEDA/TP_2/Extras/Tests/zoo.h
+animal.h
+C:/Users/tiago/Desktop/FEUP/2_Ano/1_Semestre/AEDA/TP_2/Extras/Tests/animal.h
+vector
+-
+

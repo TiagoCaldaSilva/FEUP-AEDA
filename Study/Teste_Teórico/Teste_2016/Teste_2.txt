@@ -1,0 +1,10 @@
+1.E
+2.A
+3.E //Consideramos logN como log3(n)? (SIM->B)
+4.B
+5.C
+6.A
+7.C
+8.D
+9.D
+10.B

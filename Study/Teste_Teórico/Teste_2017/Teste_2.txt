@@ -1,0 +1,34 @@
+1.B
+2.A
+3.E
+4.D
+5.A
+6.C	
+7.B
+8.
+	Iterador é um objeto apontador para um elemento de certos TDA's (conjunto de objetos e das suas funções) 
+ou à sua implementação.
+Estes objetos servem para auxiliar os algoritmos no momento de percorrer estruturas de dados, pelo que há diferentes
+tipos de iteradores para as diferentes estruturas de dados (nem todas as estruturas de dados suportam todos os iteradores, 
+como as filas e as pilhas (estruturas de dados lineares) que não suportam qualquer tipo de iteradores).
+
+9.	
+	A afirmação é correta porque as listas são estruturas lineares que não suportam iteradores de acesso aleatório
+(Random access iterators) e são estes os iteradores que a pesquisa binária utiliza para poder aceder ao elemento
+central da estrutura de dados no momento de comparar com o elemento que se deseja encontrar.
+	Deste modo, como o único acesso ao elemento central da lista só pode ser feito percorrendo a lista
+desde o inicio até chegar a este, a pesquisa binária como a conhecemos não podia ser utilizada em listas (teria
+de ser adaptada para percorrer sempre a fração da lista em questão até ao seu centro e posteriormente efetuar a 
+comparação com o valor a procurar e efetuar este processo a cada iteração).
+	
+10.
+	A grande diferença entre uma lista simplesmente ligada e uma lista duplamente ligada é que a primeira
+apenas possui para cada elemento, uma referência para o elemento seguinte, enquanto que a segunda possui para
+cada elemento, uma referência para o elemento seguinte e para o elemento anterior (sendo mais complexa a nível
+espacial, pois ocupa mais espaço).
+	Assim, apesar de neste modo de pesquisa poder ser necessário retornar o elemento anterior aquele que 
+não existe, não valeria a pena estarmos a utilizar uma lista duplamente ligada para tal efeito pois iria ser 
+mais custoso a nível espacial do que utilizar uma lista simplesmente ligada. Deste modo, uma solução, seria 
+possuir uma variável temporária e a cada iteração atualizar com o elemento que anterior ao que se está a 
+iterar, sendo que se fosse necessário devolveriamos esse valor. Assim, não teriamos de possuir uma referência
+para cada elemento anterior em cada elemento da lista sendo mais eficiente a nível espacial.

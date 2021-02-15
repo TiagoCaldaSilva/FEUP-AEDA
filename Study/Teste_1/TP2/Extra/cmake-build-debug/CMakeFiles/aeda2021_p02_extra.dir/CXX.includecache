@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/2/Extra/Tests/animal.h
+veterinary.h
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/2/Extra/Tests/veterinary.h
+string
+-
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/2/Extra/Tests/veterinary.h
+string
+-
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/2/Extra/Tests/zoo.cpp
+zoo.h
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/2/Extra/Tests/zoo.h
+iostream
+-
+sstream
+-
+stdlib.h
+-
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/2/Extra/Tests/zoo.h
+animal.h
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/2/Extra/Tests/animal.h
+vector
+-
+iterator
+-
+algorithm
+-
+

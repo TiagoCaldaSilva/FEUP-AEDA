@@ -1,0 +1,220 @@
+BuyNow-Store
+Aveiro
+Braga
+Leiria
+Lisboa
+Porto
+Viana do Castelo
+CLIENTS:
+Andre Jesus
+423023400
+###
+Joao
+744854254
+joao123@gmail.com
+###
+Joao Andre Marinho
+258955422
+joao@hotmail.com
+CHAT:
+admin
+01/01/0000
+Hi! Do you need something?
+###
+Joao Andre Marinho
+258
+###
+Miguel
+239302630
+###
+Miguel Rodrigues
+192837465
+s
+###
+Ricardo Ferreira
+951632874
+ricky@gmail.com
+CC 12/0096 1234567887654321 698
+CHAT:
+admin
+02/01/2021
+Bom dia a sua encomenda ja se encontra em distribuicao. Obrigado pela confianca e votos de um bom ano novo!
+###
+Tiago Caldas
+147852369
+silvatigas23@gmail.com
+CHAT:
+silvatigas23@gmail.com
+12/12/2020
+Bom dia, gostava de saber para quando vao ter bananas?
+silvatigas23@gmail.com
+18/12/2020
+E ja agora, seria possivel devolver 3 limoes?
+admin
+28/12/2020
+Bom dia, as bananas chegam dia 1, e infelizmente, nao aceitamos devolucoes de frutas
+silvatigas23@gmail.com
+31/12/2020
+Certo, obrigado
+admin
+02/01/2021
+Podemos ajudar em mais alguma coisa?
+silvatigas23@gmail.com
+07/01/2021
+Sim, por acaso gostava de saber se tem meloas?
+admin
+07/01/2021
+Nao, nao temos meloas
+###
+Tigas Silva
+244295484
+silvatigas@hotmail.com
+MW 924419515
+CC 12/2020 1234567812345678 123
+###
+PRODUCTS:
+ERVILHA,3.99
+Online-1,3
+Porto-2,2
+###
+DIOSPIRO,17.99
+Online-1,1
+Porto-1,1
+Viana do Castelo-2,2
+###
+LIMAO,9.98
+Online-48,5
+Aveiro-3,1
+Braga-10,3
+Leiria-3,1
+Viana do Castelo-78,14
+###
+MELAO,3.45
+Online-10,10
+Viana do Castelo-2,1
+###
+MELANCIA,4.5
+Online-15,14
+Braga-2,4
+Leiria-10,2
+Lisboa-3,2
+Porto-56,2
+###
+MARACUJA,0.5
+Online-10,3
+Aveiro-20,2
+Lisboa-14,4
+Viana do Castelo-13,5
+###
+BANANA,0.5
+Online-9,3
+###
+TRANSACTIONS:
+True
+15/03/2326
+SupJoao 2.5
+DIOSPIRO,0,4
+###
+369258147
+17/01/2008
+MB 123456789
+PERA,1.02,10
+BANANA,4.99,4
+###
+244295484
+15/03/2019
+MW 924419515
+BANANA,4.99,3
+###
+789456123
+16/02/2013
+CC 02/0003 1234567812345678 123
+ERVILHA,3.98,4
+###
+True
+01/01/0001
+SupMiguel 4.5
+MELAO,0,8
+###
+True
+01/01/0001
+SupTiago 5.5
+MELANCIA,0,22
+###
+951632874
+22/11/2020
+CC 12/0096 1234567887654321 698
+MELANCIA,4.5,10
+###
+244295484
+26/11/2020
+MW 924419515
+BANANA,4.99,4
+LIMAO,9.98,8
+###
+True
+26/11/2020
+SupJoao 3.5
+BANANA,0,7
+###
+False
+26/11/2020
+BANANA,0,1
+###
+258955422
+12/12/0012
+MB 699640239
+BANANA,0.5,10
+DIOSPIRO,17.99,3
+ERVILHA,3.99,3
+###
+False
+12/12/0012
+DIOSPIRO,0,1
+ERVILHA,0,1
+###
+True
+12/12/0012
+SupTiago 2
+BANANA,0,7
+###
+True
+12/12/0012
+SupTiago 2
+BANANA,0,2
+###
+244295484
+12/12/0012
+MB 397483187
+BANANA,0.5,7
+###
+True
+12/12/0012
+SupJoao 1.25
+BANANA,0,3
+###
+258955422
+01/01/0001
+MB 878523559
+BANANA,0.5,5
+###
+True
+01/01/0001
+SupJoao 2.2
+BANANA,0,9
+###
+744854254
+07/01/2021
+MB 301466140
+BANANA,0.5,9
+###
+True
+07/01/2021
+SupTiagoSilva 2.5
+BANANA,0,2
+###
+True
+07/01/2021
+SupMiguel 1.25
+BANANA,0,7
+###

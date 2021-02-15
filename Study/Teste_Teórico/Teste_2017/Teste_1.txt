@@ -1,0 +1,32 @@
+1.B
+2.E
+3.A
+4.C
+5.C
+6.D
+7.C ERRADO//A-> ter cuidado pois ele não percorre N vezes, percorre 10 que é um valor constante
+
+8.	Uma classe abstrata é uma classe que possui pelo menos um membro "pure virtual", ou seja, são membros que
+não são definidos nesta classe (na sua declaração possuem oprefixo = 0;) e que deste modo não podem ser inicializados
+(ou seja, não podemos criar objetos desta classe (mas podem ser criados apontadores para objetos desta classe)).
+	Deste modo, todas as classes derivadas de uma classe, têm de definir o método classificado como puramente
+virtual da classe base, se não também serão classificados como classe abstrata.
+	Esta propriedade serve para que possamos criar uma classe totalmente base sendo que não terá qualquer utilidade
+de ser utilizada e obrigar a que todas as suas classes derivadas possuam a sua própria definição dos métodos em questão.
+
+9. 	A principal vantagem da passagem do objeto por referência constante e não por cópia é a poupança de espaço 
+em memória, pois não obriga a que seja criado uma nova cópia deste novo objeto (pois é passado por referência, 
+não podendo ser alterado devido ao qualificador constante).
+	Por outro lado, não obriga a que a classe em questão tenha definido o operador de cópia quando usados
+em funções template.
+	E ainda existe a questão de que pode ser custosa a nível temporal a efetuação da cópia do elemento.
+
+10.	Este método pode possuir complexidade temporal de O(n^2) se o pivot escolhido for um mau pivot.
+	No caso deste pivot ser o menor elemento, este método vai acabar por percorrer o vetor em questão
+duas vezes (uma para colocar todos os elementos à direita do pivot e posteriormente ao fazer a partição,
+esta será feita em dois vetores (1 com n-1 elementos e outra com apenas 1 elemento) o que irá levar a que o
+vetor seja percorrido novamente na sua totalidade) o que leva a aque a complexidade temporal varie para O(N^2).
+	Para além disso, no caso do vetor estar ordenado, o método também pode ter uma complexidade temporal O(N^2) no
+caso do pivot escolhido ser um dos extremos, pois serão efetuadas n chamadas recursivas da função.
+	Assim, é preciso ser-se cauteloso na escolha do pivot sendo que uma das melhores maneiras de o fazer é ver o termo
+médio entre 3 valores (os dois extremos e o valor central).

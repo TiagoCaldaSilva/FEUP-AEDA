@@ -1,0 +1,66 @@
+Vamos dar então inicio à apresentação.
+Nesta segunda parte foi nos pedida para acrescentar novas funcionalidades ao nosso projeto anterior:
+Estas funcionalidades foram:
+	.A possibilidade de fazer o restock através de um fornecedor
+	.Dar a possibilidade do cliente efetuar encomendas à loja online, sendo que estas são entregues
+ao domicílio
+	.Implementar um sistema de apoio ao cliente
+----------------------
+	Assim, a empresa Buy-Now implementou o seu próprio apoio ao cliente onde é possível a troca de 
+mensagens entre cliente-Empresa e vice-versa.
+	Implementou a possibilidade da entrega ao domicílio onde o cliente pode escolher o método de envio. 
+Neste sistema as encomendas devem ser reencaminhadas para as carrinhas com menor volume disponível, sendo que
+estas só devem sair de distribuição se a sua ocupação for superior a 90% (ou até decisão do admnistrador).
+	E por fim temos os fornecedores que são caracterizados por um nome, nif e conjunto de produtos.
+	É de notar que por cada produto que é vendido na loja, passará a existir um novo conjunto de fornecedores,
+para que seja possivel efetuar a sua devida reposição quando necessária.
+	Porém, este sistema deve manter o acompanhamento dos stocks dos produtos, ou seja, tal como anteriormente,
+deve permitir que o restock da loja online seja efetuado pelas lojas físicas e no caso de não ser possível,
+este restock é efetuado pelos fornecedores.
+----------------------
+	Como aprendemos, as tabelas de dispersão permitem que a procura de um elemento seja da ordem O(1),
+ou seja, constante. Mas para isso será necessário definir uma função de hashing, que permite a identificação
+dos elementos de uma forma única.
+	Uma boa função de hashing é fundamental, de forma a evitar um elevado número de colisões, o que obriga 
+à resolução das mesmas por métodos como a sondagem quadrática ou linear.
+	Na STL, esta estrutura de dados é representada pelo contentor unordered set e deste modo só necessitamos
+de definir a nossa função de hashing:
+	Como o nosso objeto de trabalho são mensagens de texto, nada melhor do que diferenciar estas mensagens
+por aquilo que têm escrito (através dos códigos ASCII dos seus caracteres). Porém como mensagens diferentes
+poderiam obter o mesmo resultado e o grande objetivo de uma boa função de hashing é evitar a obtenção do mesmo
+resultado para valores diferentes: o que fazemos é ainda multiplicar esse valor do código pelo número primo 37
+e ainda somamos a esse valor os códigos ascii dos caracteres do email do cliente que envia a mensagem.
+----------------------
+	Apesar de tudo, como o chat como as mensagens são algo característico de um cliente (quero eu dizer que
+cada cliente tem o seu chat), achamos por bem ser a única das funcionalidades a acrescentar ao antigo ficheiro.
+As mensagens aparacem então no final de toda a informação do cliente, após a sigla "CHAT", sendo lá colocadas
+todas as mensagens do cliente com a empresa e as suas informções relevantes (quem enviou a mensagem e a data de
+envio)
+----------------------
+	E por tudo o que já foi dito, podemos então concluir que O programa permite ao seu utilizador, de uma
+forma simples e intuitiva, a execução de várias operações de forma a tornar mais fácil a sua utilização.
+	(Ler o que está nos slides)
+----------------------
+
+A fazer:
+	-Ir com o admin à area do admin e ver as mensagens que tem por responder
+	-Ir aos chats e mostrar as mensagens, mostrar que nenhum cliente tem mensagem enviada logo não existem
+mensagens por responder
+	-Mostrar que a última mensagem com o cliente com o NIF 147852369 tem a última mensagem a 02/01/2021
+	-Realçar o chat formatado
+	-Entrar na area do cliente com a data 1/1/2021 com o NIF 147852369 e tentar enviar mensagem
+	-Demonstrar que não é possivel porque a data é inválida
+	-Sair e entrar com a data de 6/1/2021, com o mesmo nif e enviar uma mensagem ("É tudo por agora, obrigado!")
+	-Sair e ir à área do cliente, mostrar as mensagens por responder
+	-Com a data de 5/1/2021
+	-Mostrar que a mensagem realmente aparece e que não é possível aceder com aquela data
+	-Mudar data para 6/1/2021
+	-Responder e ver que desaparece das mensagens por responder
+	-Ir ao chat e enviar mais uma mensagem
+	-Criar novo cliente, enviar mensagem, mostrar que não está lá para responder e ir responder pelo chat
+	-Mostrar que já não aparece mais, sair e mostrar que ficou gravado
+
+----------------------
+
+	
+

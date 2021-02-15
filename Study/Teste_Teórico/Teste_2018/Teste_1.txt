@@ -1,0 +1,34 @@
+1.B
+2.C
+3.D
+4.B
+5.A
+6.C
+7.B
+8.C
+9.
+	Considerando um conjunto constituído por uma classe base e as suas classes derivadas, dizemos
+há a possibilidade de ocorrer polimorfismo quando as classes derivadas redefinem um método declarado
+como virtual na classe base.
+	Assim, considerando que temos um vetor de apontadores para a classe base que possui apontadores
+para objetos da classe base e das classes derivadas, podemos dizer que o polimorfismo permite que os 
+membros-função sejam especificos ao contexto, pois ao chamar um membro-função que se encontra declarado como virtual
+e redefinido nas classes derivadas, o membro-função que é chamado é aquele que se encontra na definição da classe
+em questão ou seja:
+	Vamos assumir a classe A que possui o membro-função virtual void sayHello()e a classe B derivada da classe A
+que possui uma redefinição para o membro-função em questão. Se tivermos um vector<Class A*> que possui apontadores para
+objetos da classe A e para objetos da classe B, se chamarmos para cada elemento deste vetor o membro-função sayHello(),
+o polimorfismo vai permitir que o membro-função se adapte ao contexto na medida que se o elemento for um apontador para
+a classe A o membro-função que vai ser chamado é o definido na classe A, se o elemento for um apontador para um objeto 
+da classe B, é chamado o membro-função definido na classe B.
+
+10.
+	A pesquisa sequencial é uma pesquisa com complexidade temporal O(N) pois percorre o container todo até encontrar
+o valor que se procura.
+	Por outro lado a pesquisa binária é uma pesquisa que possui uma complexidade temporal de O(log(n)), pois a cada iteração
+vai comparando o elemento que se procura com o elemento central do container, chamando recursivamente a metade à esquerda desse
+elemento se o valor que se procura for menor do que o valor central ou então chamando com a metade à direita se o elemento que se
+procura for maior do que o elemento central (no caso de não ser nem maior, nem menor é o elemento que se procura).
+	Porém, apesar do método de pesquisa ser um método de complexidade logaritmica emnquanto o método sequencial é linear, este
+necessita que o vetor esteja previamente ordenado e que a classe dos elementos que se comparam possua definido o operador <, enquanto
+que no método de pesquisa sequencial apenas é necessário estar definido o operador ==.

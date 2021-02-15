@@ -1,0 +1,10 @@
+1.B
+2.A
+3.A
+4.B
+5.A
+6.E //Acho que é a E, mas qual não mantém a ordem temporal? (Varia com o tamanho?)
+7.B
+8.D
+9.B
+10.C

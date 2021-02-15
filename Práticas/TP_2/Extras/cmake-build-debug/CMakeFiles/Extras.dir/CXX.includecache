@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/tiago/Desktop/FEUP/2_Ano/1_Semestre/AEDA/TP_2/Extras/main.cpp
+gtest/gtest.h
+C:/Users/tiago/Desktop/FEUP/2_Ano/1_Semestre/AEDA/TP_2/Extras/gtest/gtest.h
+gmock/gmock.h
+C:/Users/tiago/Desktop/FEUP/2_Ano/1_Semestre/AEDA/TP_2/Extras/gmock/gmock.h
+

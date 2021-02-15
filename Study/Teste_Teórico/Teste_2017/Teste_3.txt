@@ -1,0 +1,49 @@
+1.B
+2.B
+3.D
+4.C
+5.D ENTENDIDO//A -> Para cada elemento, vamos er uma complexidade de O(log(n)) -> O(Nlog(n))
+6.A
+7.E
+8.
+	Uma árvore binária equilibrada é uma árvore binária cuja diferença entre as alturas das suas sub-árvores
+não deve pode ser maior que 1.
+	Deste modo, como exemplo de uma árvore binária equilibrada temos as árvores binárias AVL.
+	As vantagens da utilização deste tipo de árvore é que a pesquisa é que a pesquisa/interseção/remoção 
+irão ter sempre uma complexidade logaritmica.
+	
+9.
+	No caso de termos uma árvore binária completa, ou seja, uma árvore binária que contém os níveis todos
+preenchidos podendo fugir à regra o nível das folhas que é preenchido da esquerda para a direita, podemos
+representar a fila de prioridade com um vetor.
+	A grande vantagem da utilização de árvores binárias é a possibilidade de conseguir obter uma complexidade temporal de 
+interseção de O(log(n)) e de obtenção do menor elemento de O(log(n)) em média e O(N) no pior caso.
+	Porém, temos sempre outras possibilidades que tornam a fila de prioridade mais eficaz em certas funções
+mas mais complexas em outras (havendo vantagens e desvantagens nas implementações em questão):
+	. A implementação em listas ligadas ordenadas permite obter uma complexidade constante na obtenção do
+menor elemento (O(1) (desvantagem da utilização das estruturas em questão), mas leva-nos a usufruir de uma
+complexidade linear na inserção dos elementos (O(N)) (vantagem da utilização das estruturas em questão);
+	. Outra forma de implementar estas filas de prioridade baseia-se na utilização de listas ligadas desordenadas
+que permite resolver o problema da complexidade da inserção do exemplo a cima referido, obtendo uma complexidade
+constante neste módulo (O(1)) (desvantagem para a utilização das estruturas em questão), mas que peca naquilo que 
+o exemplo em cima benefecia, a complexidade de obtenção do menor elemento passa a ser linear (O(N)) (vantagem 
+na utilização das estruturas em questão).
+	Para além disso, a utilização dos vetores torna-se mais eficaz (perante a representação em árvores
+binárias) a nível espacial pois deixa de ser necessária a utilização de apontadores.
+
+10.
+	Uma tabela de dispersão possui uma função de hashing que permite distribuir os diferentes elementos
+da mesma pelas diferentes posições. Porém há sempre a possibildade desta função de hashing retornar o mesmo
+valor para diferentes valores tendo de ser resolvido este conflito. A este confito damos o nome de colisões,
+quando para diferentes valores, a nossa função de hashing atribui a mesma posição e é necessário resolver este
+problemas de duas formas diferentes: linearmente ou de forma quadrática isto é:
+	. Linearmente: a partir da posição que a função de hashing retorna, percorrer todos os elementos do vetor
+1 a 1 e inserir o elemento que se pretende inserir no primeiro "lugar vazio" da tabela
+	. De forma quadrática: ao contrário da forma percorrida em cima, em vez de se percorrer a tabela de forma
+linear à procura de uma vaga para inserir o elemento, vamos avançar de forma quadrátia ou seja i^2. Se no elemento
+seguinte à posição dada estiver ocupado, passamos para o lugar 4 posições à frente, e depois 9, e depois 16...
+Este modo é de facto mais efetivo, porém é necessário assegurar que a tabela possui uma dimensão 2* maior do que o 
+número de elementos da tabela.
+	Assim, no caso dado pelo exercício, podemos concluir que nunca vai ser possível obter colisões, pois a função de
+hashing vai sempre atribuir valores diferentes a elementos diferentes, assegurando que nunca vamos ter de resolver
+o problema de tentar inserir um elemento no local onde já lá está guardado outro.

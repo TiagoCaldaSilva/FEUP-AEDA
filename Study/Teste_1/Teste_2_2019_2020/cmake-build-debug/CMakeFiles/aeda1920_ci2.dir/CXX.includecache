@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/Teste_2_2019_2020/Tests/Box.h
+Object.h
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/Teste_2_2019_2020/Tests/Object.h
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/Teste_2_2019_2020/Tests/Object.h
+iostream
+-
+string
+-
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/Teste_2_2019_2020/Tests/ThinTallBox.h
+stack
+-
+Box.h
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/Teste_2_2019_2020/Tests/Box.h
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/Teste_2_2019_2020/Tests/Warehouse.cpp
+Warehouse.h
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/Teste_2_2019_2020/Tests/Warehouse.h
+algorithm
+-
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/Teste_2_2019_2020/Tests/Warehouse.h
+queue
+-
+Box.h
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/Teste_2_2019_2020/Tests/Box.h
+Object.h
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/Teste_2_2019_2020/Tests/Object.h
+ThinTallBox.h
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/Teste_2_2019_2020/Tests/ThinTallBox.h
+

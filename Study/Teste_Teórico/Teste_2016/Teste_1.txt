@@ -1,0 +1,10 @@
+1.A
+2.B
+3.D
+4.E
+5.B	Entendido//Uma subclasse apenas tem acesso aos métodos publicos e protected da classe base, a classe friend dá acesso aos métodos privados
+6.B	Entendido//Se num construtor for gerada uma esceção, o objetonão fica corretamente iniciado
+7.D
+8.C	Entendido//Burrice e distração
+9.C
+10.C

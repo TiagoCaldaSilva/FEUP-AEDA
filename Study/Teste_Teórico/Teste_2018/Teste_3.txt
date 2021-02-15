@@ -1,0 +1,26 @@
+1.D
+2.A
+3.B
+4.D
+5.D
+6.D	ERRADA//Árvore AVL possui melhor complexidade temporal para pesquisa
+7.B
+8.A
+
+9.
+	Uma tabela de dispersão é uma tabela que distribui os diferentes membros pelas diferentes posições dependendo
+de uma função de dispersão e tratando de colisões (no caso da função de dispersão gerar o mesmo valor da posição para
+elementos diferentes).
+	Já uma árvore de pesquisa binária é uma árvore que distribui os seus elementos, dependendo da forma como são
+nela inseridos, de acordo com uma certa ordem (os elementos estão ordenados, mas para um mesmo conjunto de elementos
+podemos obter uma árvore diferete, dependendo na ordem como foram inseridos(apesar de se encontrarem sempre ordenados)).
+	Assim, se quisessemos inserir as palavras numa tabela de dispersão de acordo com o seu prefixo, iriamos ter de tratar
+de um número elevado de colisões, pois como as palavras iriam estar identificadas pelo seu prefixo, a posição gerada pela
+função de dispersão iria ser sempre a mesma.
+	Por outrol lado, numa BST apenas teriamos de procurar a primeira palavra que possui o prefixo em questão (sendo
+que a pesquisa numa BST tem uma complexidade O(log(n)), e a partir daí selecionar todas as palavras que possuem o mesmo
+prefixo dessa posição para a frente.
+	Deste modo, a estrutura que considero a usar é uma árvore de pesquisa binária.
+
+10.(Ficheiro  na pasta)
+

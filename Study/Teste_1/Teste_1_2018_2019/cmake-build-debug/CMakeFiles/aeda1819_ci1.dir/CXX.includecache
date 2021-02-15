@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/Teste_1_2018_2019/Tests/Account.h
+string
+-
+iostream
+-
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/Teste_1_2018_2019/Tests/Bank.cpp
+Bank.h
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/Teste_1_2018_2019/Tests/Bank.h
+algorithm
+-
+string
+-
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/Teste_1_2018_2019/Tests/Bank.h
+Account.h
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/Teste_1_2018_2019/Tests/Account.h
+vector
+-
+BankOfficer.h
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/Teste_1_2018_2019/Tests/BankOfficer.h
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/Teste_1_2018_2019/Tests/BankOfficer.h
+Account.h
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_1/Teste_1_2018_2019/Tests/Account.h
+string
+-
+vector
+-
+

@@ -1,0 +1,10 @@
+1.D
+2.A
+3.B
+4.B
+5.B
+6.E
+7.C
+8.A
+9.D
+10.C //Objeto como operando? Significa estar como argumento?

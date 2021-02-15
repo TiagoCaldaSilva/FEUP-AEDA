@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_2/Teste_3_2013_2014/BST.h
+iostream
+-
+stack
+-
+queue
+-
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_2/Teste_3_2013_2014/Cooperativa.cpp
+Cooperativa.h
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_2/Teste_3_2013_2014/Cooperativa.h
+algorithm
+-
+
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_2/Teste_3_2013_2014/Cooperativa.h
+string
+-
+list
+-
+sstream
+-
+tr1/unordered_set
+-
+BST.h
+C:/Users/user/Desktop/FEUP/2_Ano/1_Semestre/AEDA/ESTUDAR_TESTE_2/Teste_3_2013_2014/BST.h
+

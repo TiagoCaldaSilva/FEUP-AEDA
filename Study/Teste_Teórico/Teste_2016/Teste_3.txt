@@ -1,0 +1,10 @@
+1.B
+2.D
+3.B
+4.D
+5.E ERRADO//C//Não deveria ser eliminado aquele que aparece primeiro?
+6.B
+7.A //No pior caso pode ter de correr tudo
+8.C //No pior caso pode ter de correr tudo
+9.A
+10.E

@@ -1,0 +1,41 @@
+(slide 4,5)
+De forma a implementar aquilo que nos fora proposto, utilizamos algoritmos
+e operadores favoráveis ao uso dos 3 tipos de estruturas requeridos.
+Nas BST's que requerem a ordenação dos seus elementos, de forma a serem
+eficazes na sua pesquisa, é necessário o operador menor dos Suppliers. Estes
+estão ordenados de forma ascendente de acordo com o preço do produto,
+em caso de empate, da quantidade restante do mesmo, e em última instância 
+por ordem alfabética do nome do Supplier.
+Este tipo de ordenação é bastante vantajoso, pois permite à empresa Buy-Now
+na altura de reStock escolher o mais barato dos Suppliers, diminuindo 
+os custos da mesma.
+
+slide 7,8,10
+Os ficheiros de texto possuem um grande valor no que toca ao armazenamento
+de toda a informação da empresa.
+Mal se inicia o programa, o conteúdo dos mesmos é lido e devidamente 
+armazenado na estutura de dados apropriada. No decorrer deste
+novos dados são obtidos com as transações dos clientes ou mesmo a interação
+do administrador com o cliente entre outros, sendo no fim a sua totalidade 
+escrita de volta aos ficheiros com a nova informação.
+Na resolução deste novo problema, recorremos à introdução de novos ficheiros
+de texto de forma a haver uma melhor organização da informação.
+
+Um dos novos ficheiros introduzidos foi o SUPPLIERS.TXT, neste está contida
+toda a informação dos suppliers disponiveis à empresa, nome, nif, nome do produto
+assim como a quantidade restante e preço.
+ 
+slide 14,15
+No decorrer da implemetação das novas funcionalidades, deparamo-nos com
+dificuldades ligeiras já por nós esperadas em relação ao uso
+das 3 diferentes estruturas de dados.
+Sendo apenas necessário modelar o código já implementado de forma a conjugar 
+o que nos era proposto, e estando o grupo já com um avontade no uso 
+das novas estruturas, não nos foi muito dificultooso esta segunda parte do projeto.
+
+Assim coube-me a mim (Joao Marinho) tratar da reimplementação do sistema
+de reStock com recurso às BST's, e o acrecento da nova funcionalidade à interface.
+Ao Miguel Rodrigues, toda a gestão das entregas ao domicilio com o uso de filas de
+prioridade, também como a aprimoramento da interface.
+E por fim ao Tiago Silva o sistema de interação cliente/administrador, conhecido por
+apoio ao cliente, assim como a sua introdução na interface.

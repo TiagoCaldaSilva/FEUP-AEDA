@@ -1,0 +1,31 @@
+1.A
+2.D
+3.A
+4.D
+5.C
+6.C
+7.E
+8.B
+9.
+	Uma lista simplesmente ligada é uma lista de elementos onde cada elemento contém uma referência para
+o elemento que se encontra imediatamente a seguir.
+	Por outro lado, uma lista duplamente ligada, tal como o próprio nome indica, é uma lista onde cada elemento
+contém uma referência para o elemento imediatamente a seguir e para o leemennto imediatamente antes.
+	Deste modo, para fazermos a inversão de uma lista simplesmente ligada teriamos de criar uma lista auxiliar
+onde à medida que percorriamos a lista a inverter iamos inserindo os elementos no inicio desta lista, ficando com a
+lista auxiliar como uma versão invertida da lista inicial.
+	Por outro lado, para inverter uma lista duplamente ligada basta percorrer de forma contrária a lista, pois todos
+os elementos possuem uma referência para o elemento anterior.
+	Deste modo, torna-se mais eficiente utilizar a lista duplamente ligada.
+
+10.
+	O vetor permite a utilização de random access iterators o que permite a utilização de certos algoritmos de pesquisa e
+ordenação que as listas não permitem, tornando-se mais eficiente a nível temporal.
+	A inserção e a remoção numa lista têm complexidade constante (O(1)) enquanto que num vetor têm complexidade linear
+O(N).
+	Num vetor podemos aceder a qualquer elemento numa complexidade constante, enquanto que numa lista temos complexidade
+temporal linear.
+	A concatenação das listas é muito menos complexa do que a concatenação de vetores (basta ligar o último elemento de
+uma lista ao primeiro elemento da outra lista).
+	Numa lista simplesmente ligada não temos acesso ao elemento que se encontra na posição anterior na lista, num vetor basta
+decrementar o indice.

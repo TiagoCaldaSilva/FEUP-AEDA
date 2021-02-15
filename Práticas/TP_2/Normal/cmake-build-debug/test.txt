@@ -1,0 +1,15 @@
+Brand = Fiat
+Year = 2016
+Month = 5
+Fuel = gas
+Cylinder = 1200
+Brand = Ford
+Year = 2017
+Month = 3
+Fuel = gas
+Cylinder = 1400
+Maximum Load: 1000
+Brand = XX
+Year = 2018
+Month = 4
+Type = ToutTerrain
