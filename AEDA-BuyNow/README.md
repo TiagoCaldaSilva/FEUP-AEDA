@@ -2,8 +2,8 @@
 
 ## Infos :information_source:
 This project is about the sales system of the BuyNow company.
-In the first part of the project we had developed the interface client-admin that allows the client to buy in the store and allows the admin to checkout the stats of the company and to make some adjustments in the company. In addiction, we had developed a restock system between the online store and all the physical-stores.
-In the second part of the project we had developed a client support system that allows the client to talk with the company and the admin to talk with the client. In addiction, we also had developed a delivery system with some properties and we had added the possibility to restock with a supplier.<br>
+In the first part of the project we have developed the interface client-admin that allows the client to buy in the store and allows the admin to checkout the stats of the company and to make some adjustments in the company. In addiction, we have developed a restock system between the online store and all the physical-stores.<br>
+In the second part of the project, we have developed a client support system that allows the client to talk with the company and the admin to talk with the client too. In addiction, we also developed a delivery system with some properties and we added the possibility to restock with a supplier.<br>
 
 ## About the project :bulb:
 Project report: 
